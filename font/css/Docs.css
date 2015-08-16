@@ -1,0 +1,12 @@
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background: #8E44AD;
+  color: white;
+}
+
+.right {
+  float:right;
+}

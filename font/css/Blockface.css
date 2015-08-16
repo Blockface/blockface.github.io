@@ -1,0 +1,80 @@
+
+/* BLOCKFACE ICON FONT */
+/* www.blockface.co */
+
+/* FONTS
+============================ */
+
+@font-face {
+    font-family: 'Blockface';
+    src: url('../fonts/Blockface.eot');
+    src: url('../fonts/Blockface.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Blockface.woff') format('woff'),
+         url('../fonts/Blockface.ttf') format('truetype'),
+         url('../fonts/Blockface.svg#Blockface') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class*='icon-']{
+	display: inline-block;
+   font-family: 'Blockface';
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale
+}
+
+.icon-blockface:before{content:'\0042';}
+
+
+/* SIZE
+============================ */
+
+.jumbo {
+  font-size:15em;
+}
+
+.large {
+  font-size:10em;
+}
+
+.medium {
+  font-size:7em;
+}
+
+.small {
+  font-size:5em;
+}
+
+.xsmall {
+  font-size:2em;
+}
+
+/* COLORS
+============================ */
+
+.color-primary {
+  color: #8E44AD;
+}
+
+.color-secondary {
+  color: #9B59B6;
+}
+
+.color-white {
+  color: white;
+}
+
+.color-black {
+  color: black;
+}
+
+.color-cloud {
+  color: #ECF0F1;
+}
+
+.color-gray {
+  color: #7F8C8D;
+}
